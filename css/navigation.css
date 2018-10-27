@@ -1,0 +1,35 @@
+a:link {text-decoration: none;
+	color: #5092C9;}
+
+.menu li .is-current {
+	background-color: white;
+	padding: 5px;
+	border: 2px solid #274060;}
+
+.menu {
+	text-align: center;
+	font-size: 160%;
+	float: right;
+}
+
+.menu ul {
+	list-style-type: none;
+	display: flex;
+	flex-flow: wrap;
+	justify-content: right;
+	margin: 0;
+	padding: 0;
+}
+
+.menu li {
+	margin: 10px;
+	flex-basis: 50px;
+	flex-shrink: 1;
+	flex-grow: 1;
+}
+
+.menu a:hover {
+	color: #B18FCF;
+	background-color: white;
+	padding: 5px;
+}
