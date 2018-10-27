@@ -8,7 +8,11 @@ $(document).ready(function(){
       response.json().then((data) => {
             for (var i = 0; i < data["results"].length; i++) {
               var idname = "recipe" + (i+1);
+<<<<<<< HEAD
               document.getElementById(idname).innerHTML = data["results"][i]["title"];
+=======
+              document.getElementById(idname).innerHTML = data["results"][i]["href"];
+>>>>>>> 9c175e033d9196b15ecdcd1f8912fbb57a4c3ddb
               
             }
         });
