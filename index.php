@@ -13,39 +13,18 @@ include('inc/html-top.php'); ?>
 				<input type="text" id="foods" value="Enter 1 or 2 foods">
 			</div>
 				<button>Click me</button>
-				<div id="recipe1">
-					<p></p>
-				</div>
-				<div id="recipe2">
-					<p></p>
-				</div>
-				<div id="recipe3">
-					<p></p>
-				</div>
-				<div id="recipe4">
-					<p></p>
-				</div>
-				<div id="recipe5">
-					<p></p>
-				</div>
-				<div id="recipe6">
-					<p></p>
-				</div>
-				<div id="recipe7">
-					<p></p>
-				</div>
-				<div id="recipe8">
-					<p></p>
-				</div>
-				<div id="recipe9">
-					<p></p>
-				</div>
-				<div id="recipe10">
-					<p></p>
-				</div>
+					<a id="recipe1" href=""></a>
+					<a id="recipe2" href=""></a>
+					<a id="recipe3" href=""></a>	
+					<a id="recipe4" href=""></a>
+					<a id="recipe5" href=""></a>
+					<a id="recipe6" href=""></a>
+					<a id="recipe7" href=""></a>
+					<a id="recipe8" href=""></a>
+					<a id="recipe9" href=""></a>
+					<a id="recipe10" href=""></a>
 			</main>
 			<?php include('inc/scripts.php'); ?>
 		</div>
 	</body>
-
 </html>

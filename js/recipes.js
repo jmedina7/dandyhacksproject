@@ -2,7 +2,6 @@ $(document).ready(function() {
   $("button").click(function() {
       var x = document.getElementById("foods").value;
       console.log(x);
-      //var proxy = 'https://cors-anywhere.herokuapp.com/';
       fetch('http://www.recipepuppy.com/api/?i=' + x + '&p=1')
           .then(function(response) {
               console.log(response)
@@ -11,6 +10,8 @@ $(document).ready(function() {
                   for (var i = 0; i < data["results"].length; i++) {
                       var idname = "recipe" + (i + 1);
                       document.getElementById(idname).innerHTML = data["results"][i]["title"];
+                      document.getElementById(idname).href = data["results"][i]["href"];
+                      document.getElementById(idname).target = "_blank";
                   }
               });
           })
