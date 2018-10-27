@@ -3,8 +3,7 @@
 		<li><a href="index.php">Home</a></li>
 		<li><a href="mission.php">Our Mission</a></li>
 		<li><div class="dropdown">
-			<button class="dropbtn">External Resources
-      <i class="fa fa-caret-down"></i>
+			<button class="dropbtn"><a href="resources.php">External Resources</a>
     </button>
     <div class="dropdown-content">
       <a href="snap.php">About SNAP</a>
