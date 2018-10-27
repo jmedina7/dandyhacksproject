@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Slabo+27px');
-
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
 .trans{
 	background-color: #fff;
     background-color: rgba(255,255,255,0.6);
@@ -9,7 +9,7 @@ body {
 	margin: 0 auto;
 	width: 90%;
 	max-width: 960px;
-	font-family: 'Slabo 27px', serif;
+	font-family: 'Open Sans', sans-serif;
 	color: #2C2C34;
 	margin-bottom: 10px;
 	background-image: url("https://static1.squarespace.com/static/57a638c5ebbd1acee619193b/t/5b5f88baf950b77867e03e81/1529434543262/food+background.png?format=1500w");
@@ -72,20 +72,6 @@ fieldset {
 	margin-top: 10px;
 }
 
-<<<<<<< HEAD
-.topnav input[type=text] {
-  padding: 6px;
-  margin-top: 8px;
-  margin-right: 16px;
-  font-size: 17px;
-=======
-@import url(https://fonts.googleapis.com/css?family=Open+Sans);
-
-body{
-  background: #f2f2f2;
-  font-family: 'Open Sans', sans-serif;
-}
-
 .search {
   width: 100%;
   position: relative
@@ -127,5 +113,4 @@ body{
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
->>>>>>> 968a62448ebfe918b98b260bd0d54f27e75d6e20
 }
