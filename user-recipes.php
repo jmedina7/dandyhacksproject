@@ -18,9 +18,8 @@ include('inc/html-top.php'); ?>
         <label class="fixed" for="budget">Budget: </label>
         <input type="text" name="budget" id="budget">
         <fieldset>
-          <legend>Details</legend>
         <h3><label for="userrecipes">Submit your recipe below</label></h3>
-        <textarea name="userrecipes" id="userrecipes"></textarea>
+        <textarea name="userrecipes" id="userrecipes" cols ="60" rows="30"></textarea>
       </fieldset>
         <input type="submit" value="Here's my recipe!">
       </form>

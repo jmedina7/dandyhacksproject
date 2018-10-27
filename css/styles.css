@@ -2,7 +2,7 @@
 
 .trans{
 	background-color: #fff;
-    background-color: rgba(255,255,255,0.5);
+    background-color: rgba(255,255,255,0.6);
 }
 
 body {
@@ -31,7 +31,7 @@ h1 {
 h2 { 
 	font-style : italic;
 	font-weight : normal;
-	margin-bottom : 0px;
+	margin-bottom : 10px;
 	color: #274060;
 }
 
@@ -58,4 +58,8 @@ a:link {
 a:hover {
 	color: #B18FCF;
 	padding: 5px;
+}
+
+fieldset {
+	margin-top: 10px;
 }

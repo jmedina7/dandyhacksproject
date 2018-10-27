@@ -1,6 +1,6 @@
 .menu {
 	text-align: center;
-	font-size: 160%;
+	font-size: 130%;
 	float: right;
 }
 
@@ -10,12 +10,14 @@
 	flex-flow: wrap;
 	justify-content: right;
 	margin: 2px;
-	padding: 5px;
+	padding: 0px;
 }
 
 .menu a:link {
 	text-decoration: none;
 	color: #47029e;
+	background-color: transparent;
+	padding: 4px;
 }
 
 .menu li {
@@ -28,7 +30,7 @@
 .menu a:hover {
 	color: #B18FCF;
 	background-color: white;
-	padding: 5px;
+	padding: 4px;
 }
 
 /* The dropdown container */
@@ -42,11 +44,12 @@
 	border: none;
 	outline: none;
 	font-size: inherit;
-	background-color: inherit;
 	font-family: inherit; /* Important for vertical align on mobile phones */
 	margin: inherit; /* Important for vertical align on mobile phones */
 	text-decoration: none;
 	color: #47029e;
+	background-color: transparent;
+	padding: 4px;
 }
 
 
