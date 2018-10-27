@@ -7,10 +7,9 @@ include('inc/html-top.php'); ?>
 			<header>
 				<?php include ('inc/nav.php'); ?>
 				<h1> Roc Recipes </h1>
-				<caption> Eating on a budget </caption>
+				<h2> Eating on a budget </h2>
 			</header>
 			<main>
-				<P> THIS IS SOME FILLER TEXT BB </P>
 				<button>Click me</button>
 				<div id="recipe1">
 					<p></p>
