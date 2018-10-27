@@ -2,8 +2,8 @@ $(document).ready(function() {
   $("button").click(function() {
       var x = document.getElementById("foods").value;
       console.log(x);
-      var proxy = 'https://cors-anywhere.herokuapp.com/';
-      fetch(proxy + 'http://www.recipepuppy.com/api/?i=' + x + '&p=1')
+      //var proxy = 'https://cors-anywhere.herokuapp.com/';
+      fetch('http://www.recipepuppy.com/api/?i=' + x + '&p=1')
           .then(function(response) {
               console.log(response)
               response.json().then((data) => {
