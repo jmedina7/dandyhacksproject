@@ -30,7 +30,12 @@ h1 {
 
 .home{
 	text-align: center;
-	font-size: 200%;
+	font-size: 100%;
+}
+
+.homeform{
+	text-align:center;
+	font-size: 100%;
 }
 
 h2 { 
@@ -65,4 +70,11 @@ a:hover {
 
 fieldset {
 	margin-top: 10px;
+}
+
+.topnav input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
 }
