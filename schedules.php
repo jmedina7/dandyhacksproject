@@ -2,12 +2,6 @@
 $pageTitle = "Bus Schedules";
 include('inc/html-top.php'); ?>
 
-	<body>
-		<div class = trans>
-			<header>
-				<?php include ('inc/nav.php'); ?>
-				<h1> Roc Recipes </h1>
-			</header>
 			<main>
 				<h2>Bus Schedules</h2>
 				<p>RTS shows all bus routes inthe Downtown Rochester and Monroe County areas. You can see this map <a href="https://www.myrts.com/Portals/0/Schedules/RTS-System-Map-April-3-2017.pdf">here</a>. Fare is $1 for children over 12 and for adults, $0.50 for children aged 6-11, and free for children 5 and under.</p>

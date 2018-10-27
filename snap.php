@@ -2,12 +2,6 @@
 $pageTitle = "About SNAP";
 include('inc/html-top.php'); ?>
 
-	<body>
-		<div class = trans>
-			<header>
-				<?php include ('inc/nav.php'); ?>
-				<h1> Roc Recipes </h1>
-			</header>
 			<main>
 				<h2>The Supplemental Nutrition Assistance Program (SNAP)</h2>
 				<p>The Supplemental Nutrition Assistance Program (SNAP) is a federal program dedicated to providing supplemental income to low-income families, senior citizens, the disabled, and other families in need. Eligibility for SNAP is primarily dependent on household income, but in certain circumstances the program will hear other cases. In addition to income requirements, New York also requires that the primary applicant works an average of 20 hrs/week. To find a chart of income eligibility based on family size in NY, click <a href="https://www.ny.gov/services/apply-snap">here</a>.</p>

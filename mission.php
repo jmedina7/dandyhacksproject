@@ -2,12 +2,6 @@
 $pageTitle = "Our Mission";
 include('inc/html-top.php'); ?>
 
-	<body>
-		<div class = trans>
-			<header>
-				<?php include ('inc/nav.php'); ?>
-				<h1> Roc Recipes </h1>
-			</header>
 			<main>
 				<h2>Our Mission</h2>
 				<p>Rochester contains communities with some of the highest food insecurity rates in New York State. As a whole, Rochester has a food insecurity rate of 25.9%, higher than any other in the state. Food insecurity means not having access to healthy nutritious food. Besides food insecurity, people may be on a tight budget or not always have the time to search for new, healthy options at dinnertime. ROC Recipes aims to make healthy meal options more accessible.</p>

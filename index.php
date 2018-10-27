@@ -2,12 +2,6 @@
 $pageTitle = "Roc Recipes";
 include('inc/html-top.php'); ?>
 
-	<body>
-		<div class = "trans">
-			<header>
-				<?php include ('inc/nav.php'); ?>
-				<h1> Roc Recipes</h1>
-			</header>
 			<main>
 				<h1 class = "home"> Eating on a Budget! </h1>
 				<h1 class="home"> Find Recipes using 1 or 2 ingredients you have at home and your per meal budget </h1>

@@ -2,12 +2,6 @@
 $pageTitle = "Roc Recipes";
 include('inc/html-top.php'); ?>
 
-  <body>
-    <div class = trans>
-      <header>
-        <?php include ('inc/nav.php'); ?>
-        <h1> Roc Recipes </h1>
-      </header>
       <main>
       <h2>Do you have a recipe that you'd like to submit?</h2>
       <form method="post" action="form-processor.php">
