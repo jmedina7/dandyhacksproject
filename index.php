@@ -11,13 +11,9 @@ include('inc/html-top.php'); ?>
 			<main>
 				<h1 class="home"> Find Recipes using 1 or 2 ingredients you have at home and your per meal budget </h1>
       			<input type="text" id="foods" class="searchTerm" placeholder="Enter a food you'd like!">
-<<<<<<< HEAD
+
       			<button type="submit" class="searchButton">Submit</button>
 				<p id="resultText"></p>
-=======
-      					<button type="submit" class="searchButton">Submit</button>
-     				<p id="resultText"></p>
->>>>>>> b668286bc49ea6c3964107f65b78ec950f96181d
 					<a id="recipe1" href=""></a>
 					<a id="recipe2" href=""></a>
 					<a id="recipe3" href=""></a>	
@@ -31,7 +27,6 @@ include('inc/html-top.php'); ?>
 				</div>
 			</main>
 			<?php include('inc/scripts.php'); ?>
-		
+		</div>
 	</body>
-</div>
 </html>
