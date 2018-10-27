@@ -10,10 +10,15 @@ include('inc/html-top.php'); ?>
 			</header>
 			<main>
 				<h1 class="home"> Find Recipes using 1 or 2 ingredients you have at home and your per meal budget </h1>
-							<div id="searchbar">
-				<input type="text" id="foods" value="Enter 1 or 2 foods">
-			</div>
-				<button>Click me</button>
+				<div class="wrap">
+   					<div class="search">
+      					<input type="text" id="foods" class="searchTerm" placeholder="Enter a food you'd like!">
+      					<button type="submit" class="searchButton">
+        					<i class="fa fa-search"></i>
+     					</button>
+   					</div>
+				</div>
+				<p id="resultText"></p>
 					<a id="recipe1" href=""></a>
 					<a id="recipe2" href=""></a>
 					<a id="recipe3" href=""></a>	
