@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display');
 .trans{
 	background-color: #fff;
-    background-color: rgba(255,255,255,0.9);
+    background-color: rgba(255,255,255,0.6);
 }
 
 body {
@@ -93,8 +93,5 @@ fieldset {
   border-radius: 5px;
   cursor: pointer;
   font-size: 20px;
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> b668286bc49ea6c3964107f65b78ec950f96181d
+
