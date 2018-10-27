@@ -3,21 +3,15 @@ $pageTitle = "Roc Recipes";
 include('inc/html-top.php'); ?>
 
 	<body>
-		<div class = trans>
+		<div class = "trans">
 			<header>
 				<?php include ('inc/nav.php'); ?>
 				<h1> Roc Recipes: Eating on a Budget</h1>
 			</header>
 			<main>
 				<h1 class="home"> Find Recipes using 1 or 2 ingredients you have at home and your per meal budget </h1>
-				<div class="wrap">
-   					<div class="search">
-      					<input type="text" id="foods" class="searchTerm" placeholder="Enter a food you'd like!">
-      					<button type="submit" class="searchButton">
-        					<i class="fa fa-search"></i>
-     					</button>
-   					</div>
-				</div>
+      			<input type="text" id="foods" class="searchTerm" placeholder="Enter a food you'd like!">
+      			<button type="submit" class="searchButton">Submit</button>
 				<p id="resultText"></p>
 					<a id="recipe1" href=""></a>
 					<a id="recipe2" href=""></a>
@@ -29,6 +23,7 @@ include('inc/html-top.php'); ?>
 					<a id="recipe8" href=""></a>
 					<a id="recipe9" href=""></a>
 					<a id="recipe10" href=""></a>
+				</div>
 			</main>
 			<?php include('inc/scripts.php'); ?>
 		</div>

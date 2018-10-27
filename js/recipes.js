@@ -16,6 +16,7 @@ $(document).ready(function() {
                       document.getElementById(idname).innerHTML = data["results"][i]["title"];
                       document.getElementById(idname).href = data["results"][i]["href"];
                       document.getElementById(idname).target = "_blank";
+                      
                   }
                 }
               });
