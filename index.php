@@ -8,12 +8,26 @@ include('inc/html-top.php'); ?>
 				<?php include ('inc/nav.php'); ?>
 				<h1> Roc Recipes: Eating on a Budget</h1>
 			</header>
+<<<<<<< HEAD
 			<main class = "topnav">
 				<h1  class = "home"> Find recipes using 1 or 2 ingredients you have at home and your per meal budget </h1>
 							<div id="searchbar">
 				<input type="text" id="foods" value="Enter 1 or 2 foods">
 			</div>
 				<button>Click me</button>
+=======
+			<main>
+				<h1 class="home"> Find Recipes using 1 or 2 ingredients you have at home and your per meal budget </h1>
+				<div class="wrap">
+   					<div class="search">
+      					<input type="text" id="foods" class="searchTerm" placeholder="Enter a food you'd like!">
+      					<button type="submit" class="searchButton">
+        					<i class="fa fa-search"></i>
+     					</button>
+   					</div>
+				</div>
+				<p id="resultText"></p>
+>>>>>>> 968a62448ebfe918b98b260bd0d54f27e75d6e20
 					<a id="recipe1" href=""></a>
 					<a id="recipe2" href=""></a>
 					<a id="recipe3" href=""></a>	
