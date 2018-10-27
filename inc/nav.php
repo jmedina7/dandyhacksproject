@@ -8,7 +8,7 @@
       <i class="fa fa-caret-down"></i>
     </button>
     <div class="dropdown-content">
-      <a href="#">Link 1</a>
+      <a href="snap.php">Snap</a>
       <a href="#">Link 2</a>
       <a href="#">Link 3</a>
     </div>
