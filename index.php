@@ -9,7 +9,8 @@ include('inc/html-top.php'); ?>
 				<h1> Roc Recipes: Eating on a Budget</h1>
 			</header>
 			<main>
-			<div id="searchbar">
+				<h1 class="home"> Find Recipes using 1 or 2 ingredients you have at home and your per meal budget </h1>
+							<div id="searchbar">
 				<input type="text" id="foods" value="Enter 1 or 2 foods">
 			</div>
 				<button>Click me</button>

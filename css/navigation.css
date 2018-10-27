@@ -22,7 +22,7 @@
 
 .menu li {
 	margin: 5px;
-	flex-basis: 50px;
+	flex-basis: 30px;
 	flex-shrink: 1;
 	flex-grow: 1;
 }
