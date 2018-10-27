@@ -1,11 +1,6 @@
 a:link {text-decoration: none;
 	color: #5092C9;}
 
-.menu li .is-current {
-	background-color: white;
-	padding: 5px;
-	border: 2px solid #274060;}
-
 .menu {
 	text-align: center;
 	font-size: 160%;
@@ -22,7 +17,7 @@ a:link {text-decoration: none;
 }
 
 .menu li {
-	margin: 10px;
+	margin: 5px;
 	flex-basis: 50px;
 	flex-shrink: 1;
 	flex-grow: 1;
@@ -44,7 +39,7 @@ a:link {text-decoration: none;
 .dropdown .dropbtn {
 	border: none;
 	outline: none;
-	padding: 14px 16px;
+	margin: 5px;
 	font-size: inherit;
 	background-color: inherit;
 	font-family: inherit; /* Important for vertical align on mobile phones */
@@ -55,9 +50,9 @@ a:link {text-decoration: none;
 
 
 a:hover, .dropdown:hover .dropbtn {
-    display: block;
-  color: #B18FCF;
+    color: #B18FCF;
 	background-color: white;
+	padding: 5px;
 	padding: 5px;
 }
 
