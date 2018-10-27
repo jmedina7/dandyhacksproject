@@ -14,6 +14,8 @@ include('inc/html-top.php'); ?>
 				<p>1750 East Ave, Rochester, NY 14610</p>
 				<h3>Save-A-Lot</h3>
 				<p>569 Lyell Ave, Rochester, New York 14606</p>
+				<h3>City of Rochester Public Market</h3>
+				<p>280 Union St N, Rochester, NY 14609</p>
 				<h3>Abundance Cooperative Market</h3>
 				<p>571 South Ave, Rochester, NY 14620</p>
 				<h3>Aldi</h3>
