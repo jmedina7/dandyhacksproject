@@ -1,4 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Slabo+27px');
+
+.trans{
+	background-color: #fff;
+    background-color: rgba(255,255,255,0.5);}
 body {
 	margin: 0 auto;
 	width: 90%;
@@ -6,7 +10,12 @@ body {
 	font-family: 'Slabo 27px', serif;
 	color: #2C2C34;
 	margin-bottom: 10px;
-	background-image: url("images/betterfruits.jpg");
+	background-image: url("https://static1.squarespace.com/static/57a638c5ebbd1acee619193b/t/5b5f88baf950b77867e03e81/1529434543262/food+background.png?format=1500w");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+
 }
 
 h1 {
