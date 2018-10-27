@@ -14,16 +14,18 @@ include('inc/html-top.php'); ?>
 
       			<button type="submit" class="searchButton">Submit</button>
 				<p id="resultText"></p>
-					<a id="recipe1" href=""></a>
-					<a id="recipe2" href=""></a>
-					<a id="recipe3" href=""></a>	
-					<a id="recipe4" href=""></a>
-					<a id="recipe5" href=""></a>
-					<a id="recipe6" href=""></a>
-					<a id="recipe7" href=""></a>
-					<a id="recipe8" href=""></a>
-					<a id="recipe9" href=""></a>
-					<a id="recipe10" href=""></a>
+				<ul>
+					<li><a id="recipe1" href=""></a></li>
+					<li><a id="recipe2" href=""></a></li>
+					<li><a id="recipe3" href=""></a></li>	
+					<li><a id="recipe4" href=""></a></li>
+					<li><a id="recipe5" href=""></a></li>
+					<li><a id="recipe6" href=""></a></li>
+					<li><a id="recipe7" href=""></a></li>
+					<li><a id="recipe8" href=""></a></li>
+					<li><a id="recipe9" href=""></a></li>
+					<li><a id="recipe10" href=""></a></li>
+				</ul>
 				</div>
 			</main>
 			<?php include('inc/scripts.php'); ?>
