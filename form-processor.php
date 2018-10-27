@@ -46,8 +46,6 @@ $body .= $userrecipe;			// the variable for the text area
 $body .= "\n";
 
 
-
-
 // **********************************
 // SECTION THREE: send the email
 // **********************************
@@ -62,6 +60,6 @@ mail($emailTo, $subject, $body, "From: <$emailFrom>");
 // You won't need to edit anything here...
 
 // send the user to the thank you webpage
-header("Location: contact-thanks.html");
+header("Location: recipe-thanks.php");
 
 ?>
