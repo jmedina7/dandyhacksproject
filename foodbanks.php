@@ -9,6 +9,30 @@ include('inc/html-top.php'); ?>
 				<h1> Roc Recipes </h1>
 			</header>
 			<main>
+				<h2>Budget-Friendly Grocery Stores</h2>
+				<h3>Wegmans</h3>
+				<p>1750 East Ave, Rochester, NY 14610</p>
+				<h3>Save-A-Lot</h3>
+				<p>569 Lyell Ave, Rochester, New York 14606</p>
+				<h3>City of Rochester Public Market</h3>
+				<p>280 Union St N, Rochester, NY 14609</p>
+				<h3>Abundance Cooperative Market</h3>
+				<p>571 South Ave, Rochester, NY 14620</p>
+				<h3>Aldi</h3>
+				<p>400 Lake Ave, Rochester, NY 14608</p>
+				<h3>Stop and Shop Supermarket</h3>
+				<p> 391 Chili Ave, Rochester, NY 14611</p>
+				<h3>S Mini Mart</h3>
+				<p>551 N Goodman St, Rochester, NY 14609</p>
+				<h3>Catrina Market</h3>
+				<p>3240 Chili Ave, Ste A03, Rochester, NY 14624</p>
+				<h3>Lyell Market and Deli</h3>
+				<p>1004 Lyell Ave, Rochester, NY 14606</p>
+				<h3>Bronson Food Inc</h3>
+				<p>422 Jefferson Ave, Rochester, NY 14611</p>
+				<h3>Tops Friendly Market</h3>
+				<p>175 Winton Rd N, Rochester, NY 14610</p>
+
 				<h2>Local Food Banks</h2>
 				<p>Here are a list of local food pantries that can further help families in Rochester.</p>
 				
