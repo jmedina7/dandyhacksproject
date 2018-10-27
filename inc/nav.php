@@ -1,10 +1,7 @@
 <nav class="menu">
 	<ul>
 		<li><a href="index.php">Home</a></li>
-		<li><a href="recipes.php">Recipes</a></li>
-		<li><a href="about.php">About Our Team</a></li>
+		<li><a href="user-recipes.php">Submit a Recipe</a></li>
+		<li><a href="mission.php">Our Mission</a></li>
 	</ul>
-	<div id="searchbar">
-		<input type="text" id="foods" value="Enter 1 or 2 foods">
-	</div>
 </nav>

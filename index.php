@@ -10,6 +10,9 @@ include('inc/html-top.php'); ?>
 				<h2> Eating on a budget </h2>
 			</header>
 			<main>
+			<div id="searchbar">
+				<input type="text" id="foods" value="Enter 1 or 2 foods">
+			</div>
 				<button>Click me</button>
 				<div id="recipe1">
 					<p></p>
