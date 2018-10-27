@@ -11,5 +11,5 @@
 		<div class = "trans">
 			<header>
 				<?php include ('inc/nav.php'); ?>
-				<h1> Roc Recipes</h1>
+				<figure><img src="images/logo.png" alt="Logo"></figure>
 			</header>

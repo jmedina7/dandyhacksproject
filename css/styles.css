@@ -39,9 +39,6 @@ h2 {
 	color: #274060;
 }
 
-figure{
-	float: right;
-}
 
 p { 
 	line-height: 1.2em; 
@@ -129,3 +126,10 @@ fieldset {
 	transform: translate(-50%, -50%);
 	text-align: center;
   }
+
+img { 
+		width: 35%;
+		height: auto;
+		margin-left : 2%;
+	}
+
