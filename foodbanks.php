@@ -7,7 +7,6 @@ include('inc/html-top.php'); ?>
 			<header>
 				<?php include ('inc/nav.php'); ?>
 				<h1> Roc Recipes </h1>
-				<h2> Eating on a budget </h2>
 			</header>
 			<main>
 				<h2>Local Food Banks</h2>
