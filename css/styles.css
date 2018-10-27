@@ -2,7 +2,9 @@
 
 .trans{
 	background-color: #fff;
-    background-color: rgba(255,255,255,0.5);}
+    background-color: rgba(255,255,255,0.5);
+}
+
 body {
 	margin: 0 auto;
 	width: 90%;
@@ -49,7 +51,11 @@ ul {
 	padding-left: 0px;
 }
 
-a {color: #5092C9;}
+a:link {
+	color: #5092C9;
+	text-decoration: none;}
 
-a:hover {color: #B18FCF;
-	padding: 5px;}
+a:hover {
+	color: #B18FCF;
+	padding: 5px;
+}

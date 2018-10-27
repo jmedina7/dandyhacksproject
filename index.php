@@ -6,8 +6,7 @@ include('inc/html-top.php'); ?>
 		<div class = trans>
 			<header>
 				<?php include ('inc/nav.php'); ?>
-				<h1> Roc Recipes </h1>
-				<h2> Eating on a budget </h2>
+				<h1> Roc Recipes: Eating on a Budget</h1>
 			</header>
 			<main>
 			<div id="searchbar">
