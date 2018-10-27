@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Slabo+27px');
-@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
 .trans{
 	background-color: #fff;
     background-color: rgba(255,255,255,0.6);
@@ -9,7 +8,7 @@ body {
 	margin: 0 auto;
 	width: 90%;
 	max-width: 960px;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Playfair Display', serif;
 	color: #2C2C34;
 	margin-bottom: 10px;
 	background-image: url("https://static1.squarespace.com/static/57a638c5ebbd1acee619193b/t/5b5f88baf950b77867e03e81/1529434543262/food+background.png?format=1500w");
@@ -21,7 +20,6 @@ body {
 }
 
 h1 {
-	font-family: 'Slabo 27px';
 	text-align: left;
 	font-size: 300%;
 	color: #274060;
