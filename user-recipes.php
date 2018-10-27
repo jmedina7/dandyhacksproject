@@ -12,10 +12,10 @@ include('inc/html-top.php'); ?>
       <main>
       <h2>Do you have a recipe that you'd like to submit?</h2>
       <form method="post" action="form-processor.php">
-        <label class="fixed" for="name">Name: </label>
-        <input type="text" name="name" id="name">
-        <label class="fixed" for="email">Email: </label>
-        <input type="text" name="email" id="email">
+        <label class="fixed" for="username">Your Name: </label>
+        <input type="text" name="username" id="username">
+        <label class="fixed" for="recipename">Recipe Name: </label>
+        <input type="text" name="recipename" id="recipename">
         <label class="fixed" for="budget">Budget: </label>
         <input type="text" name="budget" id="budget">
         <fieldset>

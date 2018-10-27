@@ -10,7 +10,7 @@ $subject = "Dandy Hacks";
 
 // for the following lines of code, grab the data being passed 
 //   from the method="post" in the HTML form and hold it in a variable
-$name= Trim(stripslashes($_POST['name'])); 
+$username= Trim(stripslashes($_POST['username'])); 
 $email = Trim(stripslashes($_POST['email']));
 $budget = Trim(stripslashes($_POST['budget'])); 
 // ...used more input fields? Then copy these lines (above)
@@ -26,11 +26,11 @@ $userrecipe = Trim(stripslashes($_POST['userrecipe']));
 $body = ""; // initialize the variable, then start concatenating
 			// backslash-n means new-line in emails
 
-$body .= "Name: \n"; //...a label
-$body .= $name;	  //...a variable
+$body .= "User Name: \n"; //...a label
+$body .= $username;	  //...a variable
 $body .= "\n\n";
 
-$body .= "Email: \n"; //...a label
+$body .= "Recipe Name: \n"; //...a label
 $body .= $email;	  //...a variable
 $body .= "\n\n";
 
