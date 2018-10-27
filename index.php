@@ -41,6 +41,10 @@ include('inc/html-top.php'); ?>
 				</div>
 				<div id="recipe10">
 					<p></p>
+<<<<<<< HEAD
+=======
+
+>>>>>>> 1546a5866146d5a02a99be6406e89f7be7889439
 				</div>
 			</main>
 			<?php include('inc/scripts.php'); ?>
