@@ -15,18 +15,66 @@ include('inc/html-top.php'); ?>
 
       			<button type="submit" class="searchButton">Submit</button>
 				<p id="resultText"></p>
-				<ul>
-					<li><a id="recipe1" href=""></a></li>
-					<li><a id="recipe2" href=""></a></li>
-					<li><a id="recipe3" href=""></a></li>	
-					<li><a id="recipe4" href=""></a></li>
-					<li><a id="recipe5" href=""></a></li>
-					<li><a id="recipe6" href=""></a></li>
-					<li><a id="recipe7" href=""></a></li>
-					<li><a id="recipe8" href=""></a></li>
-					<li><a id="recipe9" href=""></a></li>
-					<li><a id="recipe10" href=""></a></li>
-				</ul>
+				<div class="container">
+					<a id="recipe1" href=""></a>
+  					<div class="overlay">
+    					<div class="text" id="1text"></div>
+  					</div>
+				</div>
+				<div class="container">
+					<a id="recipe2" href=""></a>
+  					<div class="overlay">
+    					<div class="text" id="2text"></div>
+  					</div>
+				</div>
+				<div class="container">
+					<a id="recipe3" href=""></a>
+  					<div class="overlay">
+    					<div class="text" id="3text"></div>
+  					</div>
+				</div>
+				<div class="container">
+					<a id="recipe4" href=""></a>
+  					<div class="overlay">
+    					<div class="text" id="4text"></div>
+  					</div>
+				</div>
+				<div class="container">
+					<a id="recipe5" href=""></a>
+  					<div class="overlay">
+    					<div class="text" id="5text"></div>
+  					</div>
+				</div>
+				<div class="container">
+					<a id="recipe6" href=""></a>
+  					<div class="overlay">
+    					<div class="text" id="6text"></div>
+  					</div>
+				</div>
+				<div class="container">
+					<a id="recipe7" href=""></a>
+  					<div class="overlay">
+    					<div class="text" id="7text"></div>
+  					</div>
+				</div>
+				<div class="container">
+					<a id="recipe8" href=""></a>
+  					<div class="overlay">
+    					<div class="text" id="8text"></div>
+  					</div>
+				</div>
+				<div class="container">
+					<a id="recipe9" href=""></a>
+  					<div class="overlay">
+    					<div class="text" id="9text"></div>
+  					</div>
+				</div>
+				<div class="container">
+					<a id="recipe10" href=""></a>
+  					<div class="overlay">
+    					<div class="text" id="10text"></div>
+  					</div>
+				</div>
 				</div>
 			</main>
 			<?php include('inc/scripts.php'); ?>

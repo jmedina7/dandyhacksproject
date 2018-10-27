@@ -13,8 +13,12 @@ $(document).ready(function() {
                     document.getElementById("resultText").innerHTML = "We found " + data["results"].length + " results."
                   for (var i = 0; i < data["results"].length; i++) {
                       var idname = "recipe" + (i + 1);
-                      document.getElementById(idname).innerHTML = data["results"][i]["title"];
-                      document.getElementById(idname).href = data["results"][i]["href"];
+                    if (data["results"][i]["thumbnail"]) {
+                        document.getElementById(idname).innerHTML = "<img src=" + data["results"][i]["thumbnail"] + " style=\"width:200px;height:200px;border:0\" class=\"image\">";
+                    } else {
+                        document.getElementById(idname).innerHTML = "<img src=https://i.pinimg.com/originals/e0/9f/ff/e09fff0a2bc81e18f177f6549e402f33.gif style=\"width:200px;height:200px;border:0\" class=\"image\">";
+                    }
+                      document.getElementById((i+1)+"text").innerHTML = "<a href=" + data["results"][i]["href"] + ">" + data["results"][i]["title"] + "</a>";
                       document.getElementById(idname).target = "_blank";
                       
                   }
