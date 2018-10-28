@@ -138,6 +138,13 @@ img {
 		margin-left : 2%;
 	}
 
+.team img {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
 .slider {
     -webkit-appearance: none;
     width: 50%;
