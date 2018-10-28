@@ -8,30 +8,30 @@ include('inc/html-top.php'); ?>
 				<p>SNAP benefits are either stored directly on an EBT/SNAP card, or the balance is recorded on a server run by the state of residence. These cards function similarly to debit cards with a pin, and at a set date each month a balance will be added to the account, depending on the family size and demonstrated need. Purchases using SNAP benefits will be limited to only food and food related itemss. Examples of purchaseable and non-purchaseable items include: </p>
 				<h3>Purchaseable</h3>
 				<ul>
-					<li>Produce</li>
-					<li>Non-Perishables</li>
-					<li>Non-Alcoholic Beverages</li>
-					<li>Food-Producing Seeds</li>
-					<li>Spices & Ingredients</li>
-					<li>Bagged Ice</li>
+					<li>  Produce</li>
+					<li>  Non-Perishables</li>
+					<li>  Non-Alcoholic Beverages</li>
+					<li>  Food-Producing Seeds</li>
+					<li>  Spices & Ingredients</li>
+					<li>  Bagged Ice</li>
 				</ul>
 
 				<h3>Non-Purchaseable</h3>
 				<ul>
-					<li>Alcohol</li>
-					<li>Pet Food</li>
-					<li>Toiletrries</li>
-					<li>Vitamins</li>
-					<li>Preapred, Hot Foods (ex. pizza on a front display)</li>
+					<li>  Alcohol</li>
+					<li>  Pet Food</li>
+					<li>  Toiletrries</li>
+					<li>  Vitamins</li>
+					<li>  Preapred, Hot Foods (ex. pizza on a front display)</li>
 				</ul>
 
 				<h2>Applying for SNAP</h2>
 				<p>Applications can be submitted online 24/7 on NY's website, in person, or through mail. To apply, make sure you have ready: </p>
 				<ul>
-					<li>Proof of Income</li>
-					<li>Proof of Identity (with photo)</li>
-					<li>Social Security Number</li>
-					<li>Utility Bills/Medical Bills/Child Support Documents (known expenses)</li>
+					<li>  Proof of Income</li>
+					<li>  Proof of Identity (with photo)</li>
+					<li>  Social Security Number</li>
+					<li>  Utility Bills/Medical Bills/Child Support Documents (known expenses)</li>
 				</ul>
 
 				<h3>Online</h3>
