@@ -4,6 +4,9 @@ include('inc/html-top.php'); ?>
 
 			<main>
 				<h2>Budget-Friendly Grocery Stores</h2>
+
+				<iframe src="https://www.google.com/maps/d/u/0/embed?mid=1GznDD269c2w6Qk4lre1gCNMBjQWlIskP" width="640" height="480"></iframe>
+				
 				<h3>Wegmans</h3>
 				<p>1750 East Ave, Rochester, NY 14610</p>
 				<h3>Save-A-Lot</h3>
@@ -29,6 +32,10 @@ include('inc/html-top.php'); ?>
 
 				<h2>Local Food Banks</h2>
 				<p>Here are a list of local food pantries that can further help families in Rochester.</p>
+
+				
+				<iframe src="https://www.google.com/maps/d/u/0/embed?mid=1jdwmMlJQPhCJBflERS-GCrMWjkp10SZ3" width="640" height="480"></iframe>
+
 				
 				<h3>Bethany House</h3>
 				<ul>
