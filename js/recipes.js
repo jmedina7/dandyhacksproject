@@ -2,7 +2,7 @@ $(document).ready(function() {
   $('.searchButton').click(function() {
       var x = document.getElementById("foods").value;
       console.log(x);
-      fetch('http://www.recipepuppy.com/api/?i=' + x + '&p=1')
+      fetch('http://www.recipepuppy.com/api/?i=' + x + '&p=' + Math.floor(Math.random() * 10) + 1)
           .then(function(response) {
               console.log(response)
               response.json().then((data) => {
@@ -20,7 +20,6 @@ $(document).ready(function() {
                     }
                       document.getElementById((i+1)+"text").innerHTML = "<a href=" + data["results"][i]["href"] + ">" + data["results"][i]["title"] + "</a>";
                       document.getElementById(idname).target = "_blank";
-                      
                   }
                 }
               });
