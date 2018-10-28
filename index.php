@@ -8,6 +8,19 @@ include('inc/html-top.php'); ?>
       			<input type="text" id="foods" class="searchTerm" placeholder="Enter a food you'd like!">
 
       			<button type="submit" class="searchButton">Submit</button>
+      			<div class="slidecontainer">
+  				<input type="range" min="1" max="100" value="1" class="slider" id="budgetSlider">
+				</div>
+				<p>Value: <span id="budgetValue"></span></p>
+				<script>
+var slider = document.getElementById("budgetSlider");
+var output = document.getElementById("budgetValue");
+output.innerHTML = slider.value;
+
+slider.oninput = function() {
+  output.innerHTML = this.value;
+}
+</script>
 				<p id="resultText"></p>
 				<div class="container">
 					<a id="recipe1" href=""></a>
