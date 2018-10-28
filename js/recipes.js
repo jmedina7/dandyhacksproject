@@ -2,16 +2,16 @@ $(document).ready(function() {
   $('.searchButton').click(function() {
       var x = document.getElementById("foods").value;
       x = x.replace(" ", ",")
-      console.log(x);
+      var y = document.getElementById("budgetSlider").value;
       fetch('http://www.recipepuppy.com/api/?i=' + x + '&p=' + Math.floor(Math.random() * 10) + 1)
           .then(function(response) {
               console.log(response)
               response.json().then((data) => {
                   console.log(data)
                   if (data["results"].length == 0) {
-                    document.getElementById("resultText").innerHTML = "There were no recipes for " + x
+                    document.getElementById("resultText").innerHTML = "There were no recipes for " + x + " under $" + y
                   } else {
-                    document.getElementById("resultText").innerHTML = "We found " + data["results"].length + " results."
+                    document.getElementById("resultText").innerHTML = "We found " + data["results"].length + " results for " + x + " under $" + y
                   for (var i = 0; i < data["results"].length; i++) {
                       var idname = "recipe" + (i + 1);
                     if (data["results"][i]["thumbnail"]) {
