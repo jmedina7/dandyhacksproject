@@ -11,6 +11,12 @@ $(document).ready(function() {
                     console.log(data)
                     if (data["results"].length == 0) {
                         document.getElementById("resultText").innerHTML = "There were no recipes for " + x + " under $" + y
+                        for (var i = 0; i < 10; i++) {
+                            var idname = "recipe" + (i + 1);
+                            document.getElementById(idname).innerHTML = "";
+                            document.getElementById((i+1)+"text").innerHTML = "";
+                            document.getElementById(idname).target = "_blank";
+                        }
                     } else {
                         document.getElementById("resultText").innerHTML = "We found " + data["results"].length + " results for " + x + " under $" + y
                     for (var i = 0; i < data["results"].length; i++) {
