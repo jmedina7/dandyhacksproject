@@ -145,6 +145,13 @@ img {
     width: 50%;
 }
 
+.youtube iframe {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 63%;
+}
+
 .slider {
     -webkit-appearance: none;
     width: 50%;
