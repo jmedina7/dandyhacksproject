@@ -1,6 +1,7 @@
 $(document).ready(function() {
   $('.searchButton').click(function() {
       var x = document.getElementById("foods").value;
+      x = x.replace(" ", ",")
       console.log(x);
       fetch('http://www.recipepuppy.com/api/?i=' + x + '&p=' + Math.floor(Math.random() * 10) + 1)
           .then(function(response) {
