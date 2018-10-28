@@ -29,7 +29,8 @@ h1 {
 	font-size: 300%;
 	color: #274060;
 	text-decoration: none;
-
+	margin-left: 20px;
+	margin-right: 20px;
 }
 
 .home{
@@ -42,17 +43,28 @@ h2 {
 	font-weight : normal;
 	margin-bottom : 10px;
 	color: #274060;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+h3{
+	margin-left: 20px;
+	margin-right: 20px;
 }
 
 
 p { 
 	line-height: 1.2em; 
 	font-size: 105%;
+	margin-left: 20px;
+	margin-right: 20px;
 }
 
 ul {
 	list-style-type: none;
 	padding-left: 0px;
+	margin-left: 20px;
+	margin-right: 20px;
 }
 
 a:link {
@@ -66,8 +78,14 @@ a:hover {
 
 fieldset {
 	margin-top: 10px;
+	margin-left: 20px;
+	margin-right: 20px;
 }
 
+label {
+	margin-left: 20px;
+	margin-right: 20px;
+}
 .searchTerm {
   width: 85%;
   border: 3px solid #00B4CC;
@@ -145,12 +163,18 @@ img {
     width: 50%;
 }
 
+iframe{
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
 .youtube iframe {
 	display: block;
     margin-left: auto;
     margin-right: auto;
     width: 58.3%;
 }
+
 
 .slider {
     -webkit-appearance: none;
@@ -163,6 +187,8 @@ img {
     opacity: 0.7;
     -webkit-transition: .2s;
     transition: opacity .2s;
+    margin-left: 20px;
+	margin-right: 20px;
 }
 
 .slider::-webkit-slider-thumb {
@@ -173,4 +199,12 @@ img {
     border-radius: 50%; 
     background: #00b4cc;
     cursor: pointer;
+}
+
+input{
+	margin-left: 20px;
+}
+
+button {
+	margin-right: 20px;
 }
