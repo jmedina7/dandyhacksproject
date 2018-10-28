@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  $("button").click(function() {
+  $('.searchButton').click(function() {
       var x = document.getElementById("foods").value;
       console.log(x);
       fetch('http://www.recipepuppy.com/api/?i=' + x + '&p=1')
@@ -29,4 +29,9 @@ $(document).ready(function() {
               console.log('Looks like there was a problem: \n', error);
           });
   });
+  $('#foods').keypress(function(e){
+    if(e.which == 13){//Enter key pressed
+        $('.searchButton').click();//Trigger search button click event
+    }
+});
 });
