@@ -11,7 +11,7 @@ include('inc/html-top.php'); ?>
       			<div class="slidecontainer">
   				<input type="range" min="1" max="100" value="1" class="slider" id="budgetSlider">
 				</div>
-				<p>Value: <span id="budgetValue"></span></p>
+				<p>Budget Selected: $<span id="budgetValue"></span></p>
 				<script>
 var slider = document.getElementById("budgetSlider");
 var output = document.getElementById("budgetValue");
