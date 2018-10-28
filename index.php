@@ -4,8 +4,8 @@ include('inc/html-top.php'); ?>
 
 			<main>
 				<h1 class = "home"> Eating on a Budget! </h1>
-				<h1 class="home"> Find Recipes using 1 or 2 ingredients you have at home and your per meal budget </h1>
-      			<input type="text" id="foods" class="searchTerm" placeholder="Enter a food you'd like!">
+				<h1 class="home"> Find recipes using ingredients you have at home and your meal budget </h1>
+      			<input type="text" id="foods" class="searchTerm" placeholder="Enter your ingredients here!">
 
       			<button type="submit" class="searchButton">Submit</button>
       			<div class="slidecontainer">
