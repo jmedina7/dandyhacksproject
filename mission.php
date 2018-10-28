@@ -13,7 +13,7 @@ include('inc/html-top.php'); ?>
 				<p> A few resources included on the website are food banks in Monroe County, information on SNAP eligibility and application, budget-friendly grocery stores in the Rochester area, and bus scheduling information to get to any of these locations.</p>
 				<p>Another feature of the website includes a user submission option, where residents of the Rochester area can input their favorite recipes, including the budget for that meal.</p>
 				<h2>Our Team</h2>
-				<p>RocRecipes was created for the 2018 DandyHacks Hackathon in Rochester, NY. The team consists of Jayda Medina, Serena Flint, Sarah Fields, and Molly Robinson.</p>
+				<p>RocRecipes was created for the 2018 DandyHacks Hackathon in Rochester, NY. The team consists of Jayda Medina, Serena Flint, Sarah Field, and Molly Robinson.</p>
 				<div class = "team"><img src="images/team.jpg" alt="Our Team"></div>
 			</main>
 			<?php include('inc/scripts.php'); ?>
