@@ -6,27 +6,37 @@ include('inc/html-top.php'); ?>
 				<h2>Budget-Friendly Grocery Stores</h2>
 
 				<iframe src="https://www.google.com/maps/d/u/0/embed?mid=1GznDD269c2w6Qk4lre1gCNMBjQWlIskP" width="640" height="480"></iframe>
-				
+
 				<h3>Wegmans</h3>
 				<p>1750 East Ave, Rochester, NY 14610</p>
+
 				<h3>Save-A-Lot</h3>
 				<p>569 Lyell Ave, Rochester, New York 14606</p>
+
 				<h3>City of Rochester Public Market</h3>
 				<p>280 Union St N, Rochester, NY 14609</p>
+
 				<h3>Abundance Cooperative Market</h3>
 				<p>571 South Ave, Rochester, NY 14620</p>
+
 				<h3>Aldi</h3>
 				<p>400 Lake Ave, Rochester, NY 14608</p>
+
 				<h3>Stop and Shop Supermarket</h3>
 				<p> 391 Chili Ave, Rochester, NY 14611</p>
+
 				<h3>S Mini Mart</h3>
 				<p>551 N Goodman St, Rochester, NY 14609</p>
+
 				<h3>Catrina Market</h3>
 				<p>3240 Chili Ave, Ste A03, Rochester, NY 14624</p>
+
 				<h3>Lyell Market and Deli</h3>
 				<p>1004 Lyell Ave, Rochester, NY 14606</p>
+
 				<h3>Bronson Food Inc</h3>
 				<p>422 Jefferson Ave, Rochester, NY 14611</p>
+				
 				<h3>Tops Friendly Market</h3>
 				<p>175 Winton Rd N, Rochester, NY 14610</p>
 
@@ -44,7 +54,7 @@ include('inc/html-top.php'); ?>
 				</ul>
 
 				<h3>Brighton Food Cupboard</h3>
-				<p>Offers other items in addition to food, including clothing or cookware. Typical clients inclue those with a sudden loss of income, but anyone is welcome to call</p>
+				<p>Offers other items in addition to food, including clothing or cookware. Typical clients inclue those with a sudden loss of income, but anyone is welcome to call.</p>
 				<ul>
 					<li>Address: 220 Idlewood Rd, Rochester, NY 14618</li>
 					<li>Phone: (585) 271-5355</li>
@@ -57,7 +67,7 @@ include('inc/html-top.php'); ?>
 				</ul>
 
 				<h3>Catholic Family Center, Community Resource Services Program</h3>
-				<p>The Monroe County Catholic service administers several social service programs in addition to food pantries. They also provide clothing and general counseling and case management for families in need</p>
+				<p>The Monroe County Catholic service administers several social service programs in addition to food pantries. They also provide clothing and general counseling and case management for families in need.</p>
 				<ul>
 					<li>Address: 30 Hart Street Entrance #5 Rochester, New York 14605</li>
 					<li>Phone: (585) 546-7220</li>
@@ -84,7 +94,7 @@ include('inc/html-top.php'); ?>
 				</ul>
 
 				<h3>Hilton Parma Emergency Food Shelf</h3>
-				<p>Provides emergency food boxes for families in a crisis</p>
+				<p>Provides emergency food boxes for families in a crisis.</p>
 				<ul>
 					<li>Address: 59 Henry Street, Room 11B, Hilton Community Center, Hilton, NY 14468</li>
 					<li>Phone: (585) 234-2090</li>
@@ -155,7 +165,7 @@ include('inc/html-top.php'); ?>
 				</ul>
 
 				<h3>SWEM Services Food Pantry</h3>
-				<p>An emergency bag of groceries may be passed on to low income and working poor families in Monroe County. The content of the box of food will vary, but may be both fresh and/or canned groceries and other supplies. People must call first, no walk-ins..</p>
+				<p>An emergency bag of groceries may be passed on to low income and working poor families in Monroe County. The content of the box of food will vary, but may be both fresh and/or canned groceries and other supplies. People must call first, no walk-ins.</p>
 				<ul>
 					<li>Address: St. Stephen's Episcopal Church, 350 Chili Avenue Rochester, NY</li>
 					<li>Phone: (585) 328-4491</li>
