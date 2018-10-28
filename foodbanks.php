@@ -36,7 +36,7 @@ include('inc/html-top.php'); ?>
 
 				<h3>Bronson Food Inc</h3>
 				<p>422 Jefferson Ave, Rochester, NY 14611</p>
-				
+
 				<h3>Tops Friendly Market</h3>
 				<p>175 Winton Rd N, Rochester, NY 14610</p>
 
@@ -74,7 +74,7 @@ include('inc/html-top.php'); ?>
 				</ul>
 
 				<h3>Central Church of Christ</h3>
-				<p>Offers hot meals in addition to home delivery for seniors</p>
+				<p>Offers hot meals in addition to home delivery for seniors.</p>
 				<ul>
 					<li>Address: 101 South Plymouth Avenue, Rochester, NY 14608</li>
 					<li>Phone: (585) 325-6043</li>
